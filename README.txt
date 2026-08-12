@@ -1,20 +1,15 @@
-JHUMO V1 — LAUNCH CANDIDATE
+JHUMO V2
+- Individual songs
+- Shuffle toggle
+- Auto-next
+- Surprise Me
+- Same 5 moods
+- Expandable songs.js library
 
-This version is intentionally simple:
-• DIL
-• RAAT
-• JHUMO
-• REWIND
-• DRIVE
-• Surprise Me
+Current verified starter tracks:
+Tum Mile, Tum Tak, Tune Jo Na Kaha, Hoshwalon Ko Khabar Kya,
+Chura Ke Dil Mera, Are Re Are, Brown Rang, 3 Peg,
+Dangal — Title Track, Main Nikla Gaddi Leke.
 
-It already has verified playable YouTube picks so every mood works.
-
-ADDING MORE SONGS LATER
-Open songs.js and add one line in the same format:
-{id:"s010",title:"Song",artist:"Artist",youtubeId:"VIDEO_ID",moods:["dil","raat"]},
-
-One song can belong to multiple moods.
-
-PUBLIC LAUNCH
-Next step is to upload index.html, styles.css, songs.js and app.js to a free static host.
+To add later:
+{id:"s011",title:"Song",artist:"Artist",youtubeId:"VIDEO_ID",moods:["dil","raat"]}
